@@ -82,3 +82,108 @@
 #blog h5:hover {
     color: #0078FF;
 }
+
+.contact {
+    background: linear-gradient(rgba(0, 88, 220, 0.6), rgba(0, 88, 220, 0.6)), url(../images/12.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-top: 30px;
+}
+
+.touch h3:after {
+    content: "";
+    background-color: #0078FF;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    top: 130%;
+    left: 0;
+}
+
+.touch .fab {
+    border-radius: 50%;
+    border: 3px solid #0078FF;
+    padding: 0.4em;
+    margin-right: 10px;
+    font-size: 22px;
+    transition: all .5s;
+    transition: color .5s .5s;
+}
+
+.touch .fab:hover {
+    background-color: #0078FF;
+    border-color: #CDE1F8;
+    color: white;
+    cursor: pointer;
+    transition: color .5s 0s;
+}
+
+.touch .fa-facebook-f {
+    padding: 0.4em 0.6em;
+}
+
+.touch .fa-instagram {
+    padding: 0.4em 0.5em;
+}
+
+.form input {
+    margin-bottom: 35px;
+    width: 100%;
+    height: 8%;
+    padding: 12px 20px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: calibri;
+    font-size: 15px;
+    color: #B7B8B7;
+}
+
+.form textarea {
+    padding: 12px 20px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-family: calibri;
+    font-size: 15px;
+    color: #B7B8B7;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.foot {
+    background-color: #0062D3;
+    box-shadow: inset 0px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 576px) {
+    .touch p {
+        text-align: left !important;
+    }
+    .form textarea {
+        width: 100%;
+    }
+    .touch {
+        margin-top: 50px;
+    }
+    .touch .fa-facebook-f {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .form textarea {
+        width: 100%;
+    }
+    .touch {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .form textarea {
+        width: 100%;
+    }
+    .touch {
+        margin-top: 50px;
+    }
+}
