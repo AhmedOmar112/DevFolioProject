@@ -187,3 +187,206 @@
         margin-top: 50px;
     }
 }
+
+.service{
+    text-align: center;
+    
+    
+}
+.service .line{
+    background-color: #0078FF;
+    height: 5px;
+    width: 50px;
+    margin: 20px auto;
+}
+.services{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-top: 4rem;
+   
+}
+
+.one,.two,.three,.four,.five,.six{
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    
+    
+}
+i{
+    margin-bottom: 20px;
+}
+.one{
+    background-color: #fff;
+    border-radius: 8px;
+    
+}
+.one .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.one i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.one:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.one:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+.two{
+    background-color: #fff;
+    border-radius: 8px;
+    
+}
+.two .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.two i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.two:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.two:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+
+.three{
+    background-color: #fff;
+    border-radius: 8px;
+}
+.three .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.three i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.three:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.three:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+.four{
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.four .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.four i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.four:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.four:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+.five{
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.five .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.five i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.five:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.five:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+.six{
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.six .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.six i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.six:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.six:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
