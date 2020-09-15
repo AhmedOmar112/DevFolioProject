@@ -73,6 +73,7 @@
 
 #blog span:hover {
     color: #0078FF;
+    
 }
 
 #blog h5 {
@@ -81,6 +82,7 @@
 
 #blog h5:hover {
     color: #0078FF;
+    background-color: white;
 }
 
 .contact {
